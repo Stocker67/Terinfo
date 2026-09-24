@@ -1,4 +1,4 @@
-# Névsor
+# Szerkesztendő névsor
 
 Balogh Bence
 
@@ -34,15 +34,15 @@ Müller Dániel István Bicske
 
 Patthy Domonkos
 
-Sallay Dávid 6767
+Sallay Dávid 6767 
 
-Simon Mátyás (Sopron, Szombathely, Pannonhalma)
+Simon Mátyás
 
 Sinka Ádám
 
 Soponyai Gergő 12345
 
-Stocker Ádám Stoki 16
+Stocker Ádám Stoki 16 
 
 Szabó Máté
 
