@@ -13,45 +13,6 @@
 
 <p id="eredmeny"></p>
 
-<script>
-function szamitas() {
-    let a = Number(document.getElementById("oldal").value);
-
-    if (a <= 0) {
-        document.getElementById("eredmeny").innerHTML =
-        "Adj meg egy pozitív számot!";
-    } else {
-        let terulet = (3 * Math.sqrt(3) / 2) * Math.pow(a, 2);
-
-        document.getElementById("eredmeny").innerHTML =
-        "A hatszög területe: " + terulet + " m<sup>2</sup>"; toFixed(2);
-  
-     }
-}
-</script>
-
-
-<script>
-function szamitas() {
-    let a = Number(document.getElementById("oldal").value);
-
-    if (a <= 0 || document.getElementById("oldal").value === "") {
-        document.getElementById("eredmeny").innerHTML =
-        "Adj meg egy pozitív számot!";
-    } else {
-        let terulet = (3 * Math.sqrt(3) / 2) * Math.pow(a, 2);
-        let kerulet = 6 * a;
-
-        document.getElementById("eredmeny").innerHTML =
-        "A hatszög területe: " + terulet.toFixed(2) + " m²<br>" +
-        "A hatszög kerülete: " + kerulet.toFixed(2) + " m";
-    }
-}
-</script>
-
-
-<p id="eredmeny"></p>
-
 <!-- Felugró dicsérőablak -->
 <div id="popup" style="display:none; text-align:center;
 background-color:#fff3cd; padding:20px; margin-top:20px;
